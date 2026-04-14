@@ -1,4 +1,3 @@
-cat <<EOF > README.md
 # Backend Engineering & Automation Portfolio
 
 Welcome to my professional portfolio. This repository highlights my expertise in building **scalable Python backend systems, RESTful API integrations, and data-driven automation tools.** I specialize in bridging the gap between complex algorithmic logic (honed during my tenure at **LRDE**) and modern software application development.
