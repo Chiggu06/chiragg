@@ -1,6 +1,6 @@
-# Backend Engineering & Automation Portfolio
+# Software Engineering Portfolio
 
-Welcome to my professional portfolio. This repository highlights my expertise in building **scalable Python backend systems, RESTful API integrations, and data-driven automation tools.** I specialize in bridging the gap between complex algorithmic logic (honed during my tenure at **LRDE**) and modern software application development.
+Welcome to my professional portfolio. This repository highlights my expertise in building **scalable software applications, API integrations, and data-driven systems.** I specialize in bridging the gap between complex algorithmic logic (honed during my tenure at **LRDE**) and modern software engineering practices.
 
 ## 🎓 About Me
 * **Education:** B.E. in Computer Science @ Atria Institute of Technology
@@ -14,7 +14,7 @@ Welcome to my professional portfolio. This repository highlights my expertise in
 | :--- | :--- |
 | **Languages** | Python (Proficient), SQL, HTML5, CSS3 |
 | **Libraries** | Pandas, NumPy, Requests, JSON, smtplib |
-| **APIs** | Twilio, Alpha Vantage, NewsAPI, Pixela, OpenWeatherMap |
+| **APIs** | Twilio, SerpAPI (Google Flights), Sheety, Alpha Vantage, NewsAPI, Pixela, OpenWeatherMap |
 | **Security** | Dotenv (.env), Credential Management, Git Security |
 | **Tools** | Git, GitHub, PyCharm, VS Code, Postman |
 
@@ -28,6 +28,12 @@ My approach to software is defined by my professional experience in high-stakes 
 ---
 
 ## 🚀 Featured Projects
+
+### ✈️ [Flight Deals Tracker](./best_flight_deals)
+**Backend Services / API Orchestration**
+* **The Problem:** Automating flight price tracking and handling missing data when direct routes are unavailable or unpriced.
+* **The Solution:** An OOP backend that queries a Google Sheet database (Sheety API), searches live flight data (SerpAPI) using a tiered fallback search algorithm, and dispatches multi-channel alerts via **Twilio SMS** and **SMTP Email** to a dynamic subscriber list.
+* **Skills:** Multi-API Orchestration, Object-Oriented Programming (OOP), Fallback Logic, Secure SMTP Context Management.
 
 ### 📈 [Stock News Volatility Alert](./stock_trading_news_alert)
 **FinTech / Automation**
@@ -56,12 +62,11 @@ My approach to software is defined by my professional experience in high-stakes 
 ---
 
 ## 🔐 Security & Best Practices
-* **Environment Variables:** All sensitive credentials (API keys, tokens, emails) are strictly managed via \`.env\` files and are never committed to version control.
+* **Environment Variables:** All sensitive credentials (API keys, tokens, emails) are strictly managed via `.env` files and are never committed to version control.
 * **Clean Code:** Follows PEP 8 standards for readability and modularity.
-* **Error Handling:** Implemented robust try/except blocks to manage API rate limits and network latency.
+* **Error Handling:** Implemented robust `try/except` blocks to manage API rate limits, missing JSON keys, and network latency.
 
 ---
 
 ### 📫 Connect with me:
 [LinkedIn](https://www.linkedin.com/in/chirag-gangadhara) | [GitHub Profile](https://www.github.com/Chiggu06) | chiggu4937@gmail.com
-EOF
